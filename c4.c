@@ -47,30 +47,30 @@ int main()
 	print(*main_interface);
 	return 0;
 }
-int addproduct()
+int add_product()
 {
 	return 0;
 }
-int remproduct()
+int rem_product()
 {
 	return 0;
 }
-int checkexpertionproduct()
+int check_expiration_product()
 {
 	return 0;
 }
-int printallproduct()
+int printall_product()
 {
 	return 0;
 }
-int updateproduct()
+int update_product()
 {
 	return 0;
 }
-int exitsystem(char *exitProgrammessage)
+int exit_system(char *exitProgrammessage) \\*********************************NOT FINISHED*******************************
 {
 	free(*themarket);
-	print(exitProgrammessage)
+	printf(*exitProgrammessage);
 	exit(0);
 	return 0;
 }
